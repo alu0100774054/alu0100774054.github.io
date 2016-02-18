@@ -6,76 +6,187 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <script src="semantic/dist/semantic.min.js"></script>
   <style>
   body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #878787
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #878787;
+    background-color: #ffffff;
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-      background-color: #a875d0;
-      color: #ffffff;
+    background-image: url("images/fondo.jpg");
+    color: #ffffff;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
   }
   .bg-2 {
-      background-color: #89888b;
-      color: #ffffff;
+    background-color: #ffffff;
+    background-image: url("images/fondo.jpg");
+    color: #000000;
+    text-align: center;
   }
   .bg-4 {
-      background-color: #242424;
-      color: #a875d0;
+    background-color: white;
+    color: #000000;
   }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
+  .container-fluid-l {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+  }
+  .container-fluid-c {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
   }
   .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #857de7 !important;
+    color: #857de7 !important;
+  }
+  .cent {
+    text-align: center;
+  }
+  .just {
+    text-align: justify;
   }
   </style>
 </head>
 <body>
-<nav class="navbar bg-4  navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">alu0100774054</a>
+  <div class="container-fluid-c bg-1 row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">Erik Andreas Barreto de Vera</h3>
+          <br>
+        <img src="images/erik.png" class="img-circle" alt="Cinque Terre" width=80px height=80px></div>
+        <div class="panel-body bg-4 just">
+          <p>
+            Soy alumno de Ingeniería Informática en la Universidad de La Laguna, curso el itinerario de computación.
+            Aquí se podrán encontrar todas las prácticas realizadas para la asignatura de Procesadores de Lenguajes impartida
+            por el profesor Casiano Rodríguez Leon en el curso docente 2015-2016.
+          </p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">Contacto</h3>
+        </div>
+        <div class="panel-body bg-4">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" class="img-circle" alt="Cinque Terre" width=80px height=80px>
+          <p>Correo Electrónico: </p>
+          <a href="alu0100774054@ull.edu.es">
+            alu0100774054@ull.edu.es
+          </a>
+          <hr>
+          <img src="https://lh3.googleusercontent.com/-IMGb4CkWC98/VeXR6rWlM1I/AAAAAAAA7c4/aC-I28R6_ps/s506/GooglePlus-logos-02.png" class="img-circle" alt="Cinque Terre" width=80px height=80px>
+          <p>Perfil de Google+: </p>
+          <a href="https://plus.google.com/u/0/108126111340011516476">
+            <button type="button" class="btn btn-link">Pinchar aquí para entrar a mi perfil</button>
+          </a>
+          <hr>
+          <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" class="img-circle" alt="Cinque Terre" width=80px height=80px>
+          <p>Cuenta de Github: </p>
+          <a href="https://github.com/alu0100774054">
+            <button type="button" class="btn btn-link">Pinchar aquí para ver mis repositorios</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title"><img src="http://previews.123rf.com/images/magurok/magurok1312/magurok131200023/24351295-Icono-de-Programaci-n-Foto-de-archivo.jpg" class="img-circle" alt="Cinque Terre" width=80px height=80px>Práctica 1</h3>
+          <br>
+          <span class="label label-success">Terminado</span>
+        </div>
+        <div class="panel-body bg-4">
+          <p>Tutorial par la instalación de NodeJs, Express, Git, Pandoc, Markdown... etc</p>
+          <a href="http://ull-esit-gradoii-pl.github.io/tareas-iniciales-alu0100774054/">
+            <button type="button" class="btn btn-link">Pinchar aquí para ver la práctica</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12">
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><img src="http://previews.123rf.com/images/magurok/magurok1312/magurok131200023/24351295-Icono-de-Programaci-n-Foto-de-archivo.jpg" class="img-circle" alt="Cinque Terre" width=80px height=80px>Práctica 2</h3>
+        <br>
+        <span class="label label-danger">Sin terminar</span>
+      </div>
+      <div class="panel-body bg-4">
+        <p>Contenido de la práctica</p>
+      </div>
     </div>
   </div>
-</nav>
-
-<div class="container-fluid bg-1">
-  <div class="jumbotron bg-1">
-    <h1>Erik Andreas Barreto de Vera</h3>
-    <h2>Practicas de Procesadores de Lenguajes</h3>
-    <h2>Estudiante del Grado de Informática de la Universidad de La Laguna en el itinerario de computación.</p>
+  <div class="col-sm-12">
+  <div class="panel panel-danger">
+    <div class="panel-heading">
+      <h3 class="panel-title"><img src="http://previews.123rf.com/images/magurok/magurok1312/magurok131200023/24351295-Icono-de-Programaci-n-Foto-de-archivo.jpg" class="img-circle" alt="Cinque Terre" width=80px height=80px>Práctica 3</h3>
+      <br>
+      <span class="label label-danger">Sin terminar</span>
+    </div>
+    <div class="panel-body bg-4">
+      <p>Contenido de la práctica</p>
+    </div>
   </div>
 </div>
-
-<div id="pract" class="container-fluid bg-2 text-center">
-  <div class="row">
-   <div class="col-sm-2"><span class="glyphicon glyphicon-folder-open"></span>  Práctica 1</div>
-   <div class="col-sm-8">Tutorial par la instalación de NodeJs, Express, Git, Pandoc, Markdown... etc</div>
-   <div class="col-sm-2">
-     <a href="http://alu0100774054.github.io/tareas-iniciales-alu0100774054/"><button type="button" class="btn btn-default btn-sm">
-          <span class="glyphicon glyphicon-circle-arrow-right"></span> Ir al enlace
-      </button></a>
-   </div>
+<div class="col-sm-12">
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h3 class="panel-title"><img src="http://previews.123rf.com/images/magurok/magurok1312/magurok131200023/24351295-Icono-de-Programaci-n-Foto-de-archivo.jpg" class="img-circle" alt="Cinque Terre" width=80px height=80px>Práctica 4</h3>
+    <br>
+    <span class="label label-danger">Sin terminar</span>
+  </div>
+  <div class="panel-body bg-4">
+    <p>Contenido de la práctica</p>
   </div>
 </div>
+</div>
+<div class="col-sm-12">
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h3 class="panel-title"><img src="http://previews.123rf.com/images/magurok/magurok1312/magurok131200023/24351295-Icono-de-Programaci-n-Foto-de-archivo.jpg" class="img-circle" alt="Cinque Terre" width=80px height=80px>Práctica 5</h3>
+    <br>
+    <span class="label label-danger">Sin terminar</span>
+  </div>
+  <div class="panel-body bg-4">
+    <p>Contenido de la práctica</p>
+  </div>
+</div>
+</div>
+<div class="col-sm-12">
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h3 class="panel-title"><img src="http://previews.123rf.com/images/magurok/magurok1312/magurok131200023/24351295-Icono-de-Programaci-n-Foto-de-archivo.jpg" class="img-circle" alt="Cinque Terre" width=80px height=80px>Práctica 6</h3>
+    <br>
+    <span class="label label-danger">Sin terminar</span>
+  </div>
+  <div class="panel-body bg-4">
+    <p>Contenido de la práctica</p>
+  </div>
+</div>
+</div>
+  </div>
+
 </body>
 </html>
