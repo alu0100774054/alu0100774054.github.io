@@ -1,0 +1,55 @@
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #878787;
+  background-color: #ffffff;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+.bg-2 {
+  background-color: #ffffff;
+  background-image: url("images/fondo.jpg");
+  color: #000000;
+  text-align: center;
+}
+.bg-4 {
+  background-color: white;
+  color: #000000;
+}
+.container-fluid-l {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.container-fluid-c {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #857de7 !important;
+}
+.cent {
+  text-align: center;
+}
+.just {
+  text-align: justify;
+}
